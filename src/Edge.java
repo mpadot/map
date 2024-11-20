@@ -5,6 +5,11 @@ public class Edge {
     int w;
 
 
+//	public Edge(Vertex f, Vertex t) {
+//		from = f;
+//		to = t;
+//	}
+
     public Edge(Vertex f, Vertex t, int weight) {
         from = f;
         to = t;

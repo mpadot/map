@@ -1,4 +1,6 @@
+
 public class Driver2 {
+
     public static void main(String[] args) {
         Graph g = new Graph(9);
         g.addEdge("S", "A", 4);
@@ -12,10 +14,14 @@ public class Driver2 {
         g.addEdge("C", "E", 3);
         g.addEdge("C", "G", 4);
         g.addEdge("E", "F", 10);
-        g.addEdge("G", "H", 3);
+        g.addEdge("D", "H", 3);
         g.addEdge("H", "G", 1);
         g.addEdge("H", "F", 5);
         g.addEdge("G", "F", 2);
-        g.print();
+
+        g.dijkstra("S");
+        g.printAllPaths();
+
     }
+
 }
