@@ -1,4 +1,1 @@
-package PACKAGE_NAME;
-
-public class adjacencyList {
-}
+//Forgot to delete from source file
